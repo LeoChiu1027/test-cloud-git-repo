@@ -16,3 +16,4 @@ spring:
     admin:
       client:
         url: http://localhost:8762
+        api-path: manage
