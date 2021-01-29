@@ -6,11 +6,7 @@ eureka:
     metadata-map:
       management.port: ${management.port:8081}
       context-path: /manage
-    health-check-url-path: /manage/health
-management:
-  context-path: /manage
-  security:
-    enabled: false
+    health-check-url-path: /manage/health   
 feign:
   hystrix:
     enabled: true
