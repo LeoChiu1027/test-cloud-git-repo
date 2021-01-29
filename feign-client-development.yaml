@@ -16,4 +16,4 @@ spring:
     admin:
       client:
         url: http://localhost:8762
-        api-path: manage/service-registry/instance-status
+        api-path: api/applications
