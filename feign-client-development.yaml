@@ -11,6 +11,10 @@ management:
   context-path: /manage
   security:
     enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: *
 feign:
   hystrix:
     enabled: true
