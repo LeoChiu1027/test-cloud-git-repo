@@ -19,4 +19,5 @@ server:
 spring:
   boot:
     admin:
-      url: http://localhost:8762
+      client:
+        url: http://localhost:8762
